@@ -1,0 +1,126 @@
+.section {
+  padding: 7rem 2rem;
+  background: var(--dark-2);
+  border-top: 1px solid var(--gray-border);
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--white);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 3rem;
+}
+
+.item {
+  border-bottom: 1px solid var(--gray-border);
+}
+.item:first-child {
+  border-top: 1px solid var(--gray-border);
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color var(--transition);
+}
+.question:hover { color: var(--amber-light); }
+.open .question { color: var(--amber); }
+
+.icon {
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  transition: transform var(--transition);
+  color: var(--white-60);
+}
+.open .icon {
+  transform: rotate(180deg);
+  color: var(--amber);
+}
+
+.answerWrap {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.open .answerWrap {
+  max-height: 300px;
+}
+
+.answer {
+  padding-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--white-60);
+  line-height: 1.75;
+}
+
+.cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cta p {
+  color: var(--white-60);
+  font-size: 1rem;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.75rem;
+  background: var(--amber);
+  color: var(--dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 100px;
+  transition: background var(--transition), transform var(--transition);
+}
+.ctaBtn:hover { background: var(--amber-light); transform: translateY(-2px); }
+.ctaBtn:active { transform: translateY(0); }
+
+@media (max-width: 550px) {
+  .section { padding: 4rem 1.25rem; }
+}
