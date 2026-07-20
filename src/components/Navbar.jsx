@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className={styles.nav} aria-label="Navegación principal">
         <a href="#inicio" className={styles.logo}>
           <img
-            src="https://pisoselecta.cl/wp-content/uploads/2024/01/cropped-Logo-fondo-blanco-redimencionado-1-1.jpeg"
+            src="/images/cropped-Logo-fondo-blanco-redimencionado-1-1.jpeg"
             alt="A&M PisoSelecta logo"
             width="130"
             height="40"

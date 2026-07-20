@@ -17,7 +17,7 @@
 .bg {
   position: absolute;
   inset: -20%;
-  background-image: url('https://pisoselecta.cl/wp-content/uploads/2024/01/Piso-flotante-1024x574.png');
+  background-image: url('/images/Piso-flotante-1024x574.png');
   background-size: cover;
   background-position: center;
   will-change: transform;

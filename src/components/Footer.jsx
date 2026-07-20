@@ -9,7 +9,7 @@ export default function Footer() {
         <div className={styles.top}>
           <div className={styles.brand}>
             <img
-              src="https://pisoselecta.cl/wp-content/uploads/2024/01/cropped-Logo-fondo-blanco-redimencionado-1-1.jpeg"
+              src="/images/cropped-Logo-fondo-blanco-redimencionado-1-1.jpeg"
               alt="A&M PisoSelecta"
               width="120"
               height="38"
@@ -37,12 +37,12 @@ export default function Footer() {
             <div className={styles.col}>
               <h4 className={styles.colTitle}>Servicios</h4>
               <ul>
-                <li><a href="https://pisoselecta.cl/piso-flotante/" target="_blank" rel="noopener noreferrer">Piso Flotante</a></li>
-                <li><a href="https://pisoselecta.cl/piso-ceramicos/" target="_blank" rel="noopener noreferrer">Piso Cerámico</a></li>
-                <li><a href="https://pisoselecta.cl/piso-laminado/" target="_blank" rel="noopener noreferrer">Piso Laminado</a></li>
-                <li><a href="https://pisoselecta.cl/piso-porcelanato/" target="_blank" rel="noopener noreferrer">Porcelanato</a></li>
-                <li><a href="https://pisoselecta.cl/piso-vinilico/" target="_blank" rel="noopener noreferrer">Piso Vinílico</a></li>
-                <li><a href="https://pisoselecta.cl/piso-radier/" target="_blank" rel="noopener noreferrer">Radier Terrazas</a></li>
+                <li><a href="#servicios">Piso Flotante</a></li>
+                <li><a href="#servicios">Piso Cerámico</a></li>
+                <li><a href="#servicios">Piso Laminado</a></li>
+                <li><a href="#servicios">Porcelanato</a></li>
+                <li><a href="#servicios">Piso Vinílico</a></li>
+                <li><a href="#servicios">Radier Terrazas</a></li>
               </ul>
             </div>
             <div className={styles.col}>
@@ -51,8 +51,8 @@ export default function Footer() {
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#faq">Preguntas frecuentes</a></li>
-                <li><a href="https://pisoselecta.cl/galeria/" target="_blank" rel="noopener noreferrer">Galería</a></li>
-                <li><a href="https://pisoselecta.cl/nuestros-precios/" target="_blank" rel="noopener noreferrer">Precios</a></li>
+                <li><a href="#servicios">Galería</a></li>
+                <li><a href="#contacto">Precios</a></li>
               </ul>
             </div>
             <div className={styles.col}>
